@@ -3,6 +3,19 @@
     android:id="@+id/game_board_id"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/testbackground"
     tools:context=".GameActivity" >
+
+    <include
+        android:id="@+id/avatar_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/avatar_menu" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avatar_menu"
+        layout="@layout/gameboard"
+        android:background="@drawable/testbackground" />
+
 </RelativeLayout>
