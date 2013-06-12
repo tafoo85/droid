@@ -8,5 +8,5 @@ package com.indie.mobile.droidrpg.game;
  *
  */
 public interface IConfigurable {
-
+	void loadConfiguration();
 }
